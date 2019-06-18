@@ -9,6 +9,8 @@ var descriptionCount = 0;
 $(document).ready(function() {
     displayDescription();
     startRotation();
+    document.querySelector('video').playbackRate = .50;
+
 })
 function displayDescription() {
 

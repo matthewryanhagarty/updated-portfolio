@@ -1,12 +1,44 @@
+/* .video-container {
+    position: absolute;
+    opacity: .70;
+    z-index: -1;
+    display: block;
+} */
+
+/* body {
+    z-index: 2;
+    background-color: white;
+    color: white;
+} */
+
 .icon-image {
     height: 60px;
     width: 60px;
 }
 
+#icon-row {
+    margin: 0 auto;
+    text-align: center;
+}
+
 #profile-image {
     height: 95%;
     width: 75%;
+    position: relative;
 }
+
+#camp-dad-div {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#beard-div {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+
 
 
 /* .name-row {
