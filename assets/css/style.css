@@ -45,7 +45,7 @@ h1{
 #icon-image3 {
     height: 90px;
     width: 90px;
-    margin-top: 70px;
+    margin-top: 50px;
 }
 
 #icon-row {
@@ -59,7 +59,7 @@ h1{
 }
 
 #profile-image {
-    height: 95%;
+    height: 90%;
     width: 75%;
     position: relative;
     border: 1px;
@@ -89,5 +89,6 @@ p {
 }
 #contact {
     font-family: 'Noto Serif', serif;
-    font-size: 15px;  
+    font-size: 15px; 
+    margin-bottom: 10px; 
 }
