@@ -5,15 +5,29 @@
     display: block;
 } */
 
-/* body {
-    z-index: 2;
-    background-color: white;
-    color: white;
-} */
+body {
+    background-image: url(../images/pink-dust.png);
+}
 
-.icon-image {
-    height: 60px;
-    width: 60px;
+.container {
+    background-color:white;
+    margin-top: 50px;
+    padding: 20px;
+}
+.image:hover {
+    background-color:white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 0px;
+}
+
+#icon-image1 {
+    height: 80px;
+    width: 80px;
+}
+
+#icon-image2 {
+    height: 80px;
+    width: 80px;
 }
 
 #icon-row {
