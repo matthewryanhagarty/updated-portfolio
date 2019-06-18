@@ -7,7 +7,7 @@
 body {
     background-image: url(../images/stripes.png);
     font-family: 'Noto Serif', serif;
-    
+    width: 100%;
 }
 
 h1{
@@ -42,9 +42,15 @@ h1{
 #icon-image3 {
     height: 90px;
     width: 90px;
+    margin-top: 70px;
 }
 
 #icon-row {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#icon-row2{
     margin: 0 auto;
     text-align: center;
 }
