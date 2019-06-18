@@ -1,6 +1,6 @@
 var verbs = ["i s" , "w a s", "p l a y e d" ,"e n j o y s" ]
 
-var descriptions = ["an aspiring web developer." , "previously a K-8 supplemental reading & mathematics instructor." , "drums semi-professionally for his band Fritz Montana before learning to code." , "front-end architecture & creating aesthetically appealing front-end designs"]
+var descriptions = ["an aspiring web developer." , "previously a K-8 supplemental reading & mathematics instructor." , "drums semi-professionally with his band Fritz Montana before learning to code." , "front-end architecture & creating aesthetically appealing front-end designs"]
 
 var descriptionRotation;
 var verbCount = 0;
