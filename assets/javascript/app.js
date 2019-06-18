@@ -23,7 +23,6 @@ function displayDescription() {
 
 }
 
-
 function nextDescription() {
 
     if (verbCount === verbs.length) {
