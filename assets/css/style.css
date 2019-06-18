@@ -25,6 +25,7 @@ h1{
     box-shadow: 0px 0px 5px 5px rgb(201, 200, 200);
     border: 10px;
 }
+
 .image {
     background-color:white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -83,3 +84,10 @@ p {
     font-family: 'Noto Serif', serif;
 }
 
+#github {
+    font-size: 15px;
+}
+#contact {
+    font-family: 'Noto Serif', serif;
+    font-size: 15px;  
+}
