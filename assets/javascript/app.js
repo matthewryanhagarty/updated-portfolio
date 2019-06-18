@@ -1,6 +1,6 @@
-var verbs = ["i s" , "w a s", "p l a y e d" ,"e n j o y s" ]
+var verbs = ["i s" , "w a s", "p l a y e d" ,"e n j o y s", "t h r i v e s" , "h o p e s" ]
 
-var descriptions = ["an aspiring web developer." , "previously a K-8 supplemental reading & mathematics instructor." , "drums semi-professionally with his band Fritz Montana before learning to code." , "front-end architecture & creating aesthetically appealing front-end designs"]
+var descriptions = ["an aspiring web developer." , "previously a K-8 supplemental reading & mathematics instructor." , "the drums professionally with his band Fritz Montana before learning to code." , "creating practical, simple, & aesthetically appealing front-end designs" , "at interpersonal communication & working within teams", "to make a positive impact working for your company"]
 
 var descriptionRotation;
 var verbCount = 0;
@@ -9,9 +9,8 @@ var descriptionCount = 0;
 $(document).ready(function() {
     displayDescription();
     startRotation();
-    document.querySelector('video').playbackRate = .50;
-
 })
+
 function displayDescription() {
 
     for (var i = 0; i < verbs.length; i++) {
@@ -20,7 +19,6 @@ function displayDescription() {
     for (var i = 0; i < descriptions.length; i++) {
     $("#description-holder").text(descriptions[descriptionCount]);
     }
-
 }
 
 function nextDescription() {
@@ -40,5 +38,5 @@ displayDescription();
 }
 
     function startRotation() {
-        descriptionRotation = setInterval(nextDescription, 3000);
+        descriptionRotation = setInterval(nextDescription, 5000);
     }
