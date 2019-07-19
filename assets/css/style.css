@@ -57,7 +57,7 @@ h1{
 
 #profile-image {
     height: 90%;
-    width: 75%;
+    width: 85%;
     position: relative;
     border: 1px;
     border-style: solid;
@@ -94,3 +94,28 @@ p {
     height: 200px;
 
 }
+
+#bamazon {
+    width: 300px;
+    height: 200px;
+}
+
+#savant {
+    width: 450px;
+    height: 250px;
+}
+
+#camp-dad {
+    width: 300px;
+    height: 200px;
+}
+
+/* #drums1 {
+    width: 400px;
+    height: 250px;
+}
+
+#drums2 {
+    width: 400px;
+    height: 250px;
+} */
